@@ -31,4 +31,19 @@ header {
     padding: 20px;
 }
 
+nav ul {
+    list-style: none; /* Remove o estilo da lista */
+}
+
+nav li {
+    display: inline; /* Deixa os itens da lista em linha */
+    margin-right: 20px; /* Adiciona um espaçamento de 20px entre os itens da lista */
+}
+
+nav a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #fff; /* Cor do texto */
+}
+
 
