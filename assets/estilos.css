@@ -20,6 +20,26 @@ header {
     font-size: x-large;
 }
 
+#nav ul li { 
+    list-style: none;
+    display: inline;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#nav ul li.active {
+    background-color: #4b086c;
+}
+
+#nav ul li:hover {
+    background-color: #4b086c;
+}
+
 nav ul {
     list-style: none; /* Remove a bolinha da lista */
 }
@@ -27,6 +47,7 @@ nav ul {
 nav li {
     display: inline; /* Faz com que os itens da lista fiquem na mesma linha */
     margin: 60px; /* Define um espaçamento entre os itens */
+    border-radius: 5px;
 }
 
 nav a {
@@ -66,11 +87,11 @@ main {
 }
 
 .card button:hover {
-    background-color: #555; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #4b086c; /* Muda a cor de fundo ao passar o mouse */
 }
 
 footer {
-    background-color: #333;
+    background-color: #29072f;
     color: #fff;
     text-align: center;
     padding: 1rem;
