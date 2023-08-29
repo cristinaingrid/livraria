@@ -1,5 +1,5 @@
 /* estilos.css */
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 /* Reset de Estilos */
 * {
     margin: 0; /* Remove a margem padrão */
@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    font-family: 'Lato', sans-serif; /* Define a fonte padrão */
     background-color: #E6E6FA; /* Define a cor de fundo */
 }
 
