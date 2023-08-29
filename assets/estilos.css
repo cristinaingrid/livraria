@@ -20,6 +20,20 @@ header {
     font-size: x-large;
 }
 
+nav ul li { 
+    list-style: none;
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#nav ul li {
+    float: left;
+    border-radius: 8px;
+}
+
 nav ul {
     list-style: none; /* Remove a bolinha da lista */
 }
