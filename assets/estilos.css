@@ -20,23 +20,11 @@ header {
     font-size: x-large;
 }
 
-#nav ul li { 
-    list-style: none;
-    display: inline;
+header h1 {
+    margin-bottom: 10px;
 }
 
-.clearfix::before,
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-#nav ul li.active {
-    background-color: #4b086c;
-}
-
-#nav ul li:hover {
+nav ul li:hover {
     background-color: #4b086c;
 }
 
@@ -48,6 +36,8 @@ nav li {
     display: inline; /* Faz com que os itens da lista fiquem na mesma linha */
     margin: 60px; /* Define um espaçamento entre os itens */
     border-radius: 5px;
+    padding: 6px 12px;
+    transition: all 0.5s ease;
 }
 
 nav a {
