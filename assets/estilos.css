@@ -14,7 +14,7 @@ body {
 
 header {
     background-color: 	#CBC3E3; /* Define a cor de fundo */
-    color: #fff; /* Define a cor do texto */
+    color: #000000; /* Define a cor do texto */
     text-align: center; /* Centraliza o texto */
     padding: 3rem; /* Define um espaçamento interno */
     font-size: x-large;
@@ -42,7 +42,7 @@ nav li {
 
 nav a {
     text-decoration: none; /* Remove o sublinhado dos links */
-    color: #fff; /* Define a cor do texto */
+    color: #000000; /* Define a cor do texto */
     font-weight: bold; /* Define o peso da fonte */
 }
 
@@ -171,7 +171,7 @@ textarea {
 
 /* Botões */
 button {
-    background-color: #007bff;
+    background-color: #4b086c;
     color: white;
     border: none;
     border-radius: 4px;
@@ -186,5 +186,5 @@ button {
   
   /* Botão de Enviar */
   button:hover {
-    background-color: #0056b3;
+    background-color: #260835;
 }
